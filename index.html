@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Тестовое задание</title>
+		<meta name="description" content="Тестовое задание">
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="modal">
+			<p class="modal__header">Задать вопрос</p>
+			<form class="modal-form" method="post" action="" >
+				<p><input class="modal-form__input" type="text" name="name" placeholder="Фамилия Имя Отчество *" pattern="^[А-Яа-яЁё\s,-]+$" required></p>
+				<p><input class="modal-form__input" type="text" name="phone" placeholder="Телефон *" pattern="^[0-9,\s,\-,\+]+$" required></p>
+				<p><input class="modal-form__input" type="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$"></p>
+				<p><button class="modal-form__button">ОТПРАВИТЬ ЗАПРОС</button></p>
+			</form>
+		</div>
+	</body>
+</html>
